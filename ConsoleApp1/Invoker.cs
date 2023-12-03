@@ -2,7 +2,7 @@
 {
     public class Invoker
     {
-        private ICommand _command;
+        private ICommand? _command;
 
         public void SetCommand(ICommand command)
         {
